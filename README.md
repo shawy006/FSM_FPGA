@@ -47,11 +47,12 @@ This project implements a **basic sequence detector** using the buttons on the *
 
 ## **File Structure**
 - `src/`:
-  - `sequence_detector.v`: Verilog module implementing the sequence detector logic.
-  - `tone_generator.v`: Module for generating the 392 Hz and 110 Hz tones.
-  - `led_controller.v`: Module for controlling LED output based on sequence validity.
+  - `button_detect.v`: Verilog module implementing the sequence detector logic.
+  - `tone.v`: Module for generating the 392 Hz and 110 Hz tones.
+  - `button_detect_tb.v`: Module for controlling LED output based on sequence validity.
 - `tb/`:
-  - `tb_sequence_detector.v`: Testbench for simulating the sequence detector.
+  - `button_detect.v`: Testbench for simulating the sequence detector.
+  - `tone_tb.v`: Testbench for simulating the tone module.
 - `constraints/`:
   - `arty_z7_constraints.xdc`: Pin mapping for buttons, LEDs, and buzzer.
 
