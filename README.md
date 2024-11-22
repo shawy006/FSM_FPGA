@@ -54,7 +54,7 @@ This project implements a **basic sequence detector** using the buttons on the *
   - `button_detect.v`: Testbench for simulating the sequence detector.
   - `tone_tb.v`: Testbench for simulating the tone module.
 - `constraints/`:
-  - `arty_z7_constraints.xdc`: Pin mapping for buttons, LEDs, and buzzer.
+  - `io.xdc`: Arty_z7_constraints pin mapping for buttons, LEDs, and buzzer.
 
 
 
