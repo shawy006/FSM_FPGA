@@ -1,22 +1,5 @@
 `timescale 1ns / 1ps
 
-/////////////////////////////////////////////////////////////////////////////////////////
-//
-//   PROJECT DESCRIPTION:	A basic sequence detector of which buttons are pressed. If the 
-//							correct sequence is detected and the enter switch goes high,
-// 							a blue LED will light, and a 392 Hz tone will sound. If not, 
-//					        the red LED will light, and a 110 Hz tone will sound. There            
-//                          is no overlap. The buttons I am using are 4 buttons built into
-//                          the Arty z7-10 board.
-//
-//                          The enter sequence is BTN2, BTN3, BTN1, BTN3
-//
-//	            FILENAME:   button_detect.v
-//	             VERSION:   1.0  10/08/2020
-//                AUTHOR:   Dominic Meads
-//
-/////////////////////////////////////////////////////////////////////////////////////////
-
 module button_detect(
 	input clk,              // 125 MHz
 	input [3:1] BTN,        // 4 buttons on Arty Z7-10: BTN3, BTN2, BTN1, BTN0. The first 3 are the sequence inputs
