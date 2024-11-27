@@ -54,7 +54,7 @@ This project implements a **basic sequence detector** using the buttons on the *
   - `button_detect_tb.v`: Testbench for simulating the sequence detector.
   - `tone_tb.v`: Testbench for simulating the tone module.
 - `constraints/`:
-  - `io.xdc`: Arty_z7_constraints pin mapping for buttons, LEDs, and buzzer.
+  - `io.xdc`: Arty_z7_constraints pin mapping for buttons, LEDs, and buzzer so that FPGA design meets the hardware contraints and timing requirements.
 
 
 
